@@ -1,0 +1,25 @@
+{
+  "name": "cordova-windowsuser-plugin",
+  "version": "0.1.0",
+  "description": "Cordova Windows User plugin",
+  "cordova": {
+    "id": "cordova-windowsuser-plugin",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antbelliard/cordova-windowsuser-plugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-windows"
+  ],
+  "author": "Antoine Belliard",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/antbelliard/cordova-windowsuser-plugin/issues"
+  },
+  "homepage": "https://github.com/antbelliard/cordova-windowsuser-plugin#readme"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-windowsuser-plugin"
+    version="0.1.0">
+    <name>UsernamePlugin</name>
+    <description>Cordova Windows User plugin</description>
+    <repo>https://github.com/antbelliard/cordova-windowsuser-plugin.git</repo>
+
+
+    <js-module src="www/username.js" name="UsernamePlugin">
+        <clobbers target="UsernamePlugin" />
+    </js-module>
+
+    <!-- windows -->
+    <platform name="windows">
+        <js-module src="src/windows/usernameProxy.js" name="usernameProxy">
+            <merges target="" />
+        </js-module>
+    </platform>
+
+    <!-- other platforms -->
+
+</plugin>
