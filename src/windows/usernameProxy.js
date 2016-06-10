@@ -1,7 +1,8 @@
 module.exports = {
 
     getUserName: function (sucess, fail) {
-    	var userName = "AUserName";
+    	var user = new UserNameJS.UserName()
+    	userName = user.getUserName();
 	    if(userName != "") {
 	        sucess(userName);
 	    }
