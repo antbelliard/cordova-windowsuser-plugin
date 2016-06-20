@@ -7,13 +7,13 @@
     <repo>https://github.com/antbelliard/cordova-windowsuser-plugin.git</repo>
 
 
-    <js-module src="www/username.js" name="UsernamePlugin">
-        <clobbers target="UsernamePlugin" />
+    <js-module src="www/usernameplugin.js" name="UsernamePlugin">
+        <clobbers target="window.usernameplugin" />
     </js-module>
 
     <!-- windows -->
     <platform name="windows">
-        <js-module src="src/windows/usernameProxy.js" name="usernameProxy">
+        <js-module src="src/windows/usernamepluginProxy.js" name="UserNameProxy">
             <merges target="" />
         </js-module>
     </platform>

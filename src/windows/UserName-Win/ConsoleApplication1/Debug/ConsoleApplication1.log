@@ -1,2 +1,0 @@
-﻿  pch.cpp
-c:\infolycee\plugin\cordova-windowsuser-plugin\src\windows\username-win\usernamecpp\pch.cpp(2): error C2857: L'instruction '#include' spécifiée avec l'option de ligne de commande /Ycstdafx.h n'a pu être trouvée dans le fichier source
